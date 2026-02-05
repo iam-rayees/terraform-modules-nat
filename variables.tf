@@ -1,2 +1,7 @@
-variable "public_subnet_id_1" {}
-variable "vpc_name" {}
+variable "public_subnet_id" {
+  type = string
+}
+
+variable "private_route_table_id" {
+  type = string
+}
