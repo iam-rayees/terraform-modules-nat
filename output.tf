@@ -1,3 +1,3 @@
-output "nat_gateway_id" {
+output "nat_gw" {
   value = aws_nat_gateway.natgw.id
 }
