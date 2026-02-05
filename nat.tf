@@ -7,6 +7,6 @@ resource "aws_nat_gateway" "natgw" {
   subnet_id     = var.public_subnet_id
 
   tags = {
-    Name = "${environment}-NAT-GW"
+    Name = "dev-NAT-GW"
   }
 }
